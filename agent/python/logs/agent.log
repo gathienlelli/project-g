@@ -1,0 +1,11 @@
+Python agent started
+Sent to AHK: open_app:notepad.exe
+Python agent started
+Python agent started
+Python agent started
+Python agent started
+Command result: Sent to AHK
+Python agent started
+Command result: File created: G:\agent\test\hello.txt
+Python agent started
+Workflow result: Workflow 'morning_mode' completed

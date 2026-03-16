@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #0f0f0f;
+    color: #e0e0e0;
+    font-family: Consolas, monospace;
+}
+
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 32px;
+    color: #ffffff;
+}
+
+.subtitle {
+    margin-top: 5px;
+    margin-bottom: 30px;
+    color: #888;
+    font-size: 14px;
+}
+
+#status-blocks {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 20px;
+}
+
+.block {
+    background: #1a1a1a;
+    border: 1px solid #222;
+    padding: 20px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.block h2 {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+    color: #fff;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    margin: 6px 0;
+    gap: 8px;
+}
+
+.item span {
+    font-size: 14px;
+}
+
+.indicator {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.ok {
+    background: #3ccf4e;
+    box-shadow: 0 0 6px #3ccf4e;
+}
+
+.fail {
+    background: #ff3b3b;
+    box-shadow: 0 0 6px #ff3b3b;
+}
+
+.warn {
+    background: #ffb300;
+    box-shadow: 0 0 6px #ffb300;
+}
+
+.btn {
+    background: #2a2a2a;
+    border: 1px solid #444;
+    color: #e0e0e0;
+    padding: 10px 16px;
+    margin: 6px 6px 6px 0;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: Consolas, monospace;
+    font-size: 13px;
+    transition: 0.15s;
+}
+
+.btn:hover {
+    background: #3a3a3a;
+    border-color: #666;
+}
+
+.btn:active {
+    background: #222;
+}

@@ -1,0 +1,21 @@
+{
+    "websocket": {
+        "enabled": true,
+        "port": 8765
+    },
+    "logger": {
+        "enabled": true,
+        "rotate": true
+    },
+    "monitor": {
+        "enabled": true,
+        "interval_ms": 5000
+    },
+    "scheduler": {
+        "enabled": true
+    },
+    "updater": {
+        "enabled": true,
+        "check_interval_hours": 6
+    }
+}

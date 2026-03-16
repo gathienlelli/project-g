@@ -1,0 +1,6 @@
+{
+    "websocket_host": "127.0.0.1",
+    "websocket_port": 8765,
+    "allowed_origins": ["*"],
+    "timeout_seconds": 30
+}

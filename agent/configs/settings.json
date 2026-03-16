@@ -1,0 +1,8 @@
+{
+    "agent_name": "LelliAgent",
+    "version": "1.0.0",
+    "environment": "development",
+    "log_level": "debug",
+    "auto_restart": true,
+    "enable_hot_reload": true
+}

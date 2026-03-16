@@ -1,0 +1,15 @@
+{
+  "steps": [
+    {
+      "action": "open_app",
+      "params": { "path": "notepad.exe" }
+    },
+    {
+      "action": "file_append",
+      "params": {
+        "path": "G:\\agent\\logs\\morning.txt",
+        "content": "Утренний режим запущен\n"
+      }
+    }
+  ]
+}

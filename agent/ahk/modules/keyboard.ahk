@@ -1,0 +1,3 @@
+Type(text) {
+    Send, %text%
+}

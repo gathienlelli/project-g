@@ -1,0 +1,3 @@
+Focus(win) {
+    WinActivate, %win%
+}

@@ -1,0 +1,9 @@
+{
+    "workflow": true,
+    "file_ops": true,
+    "window_control": true,
+    "browser_control": true,
+    "network": true,
+    "ai": true,
+    "custom": true
+}

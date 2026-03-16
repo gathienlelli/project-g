@@ -1,0 +1,34 @@
+{
+  "actions": {
+    "open_app": {
+      "params": ["path"]
+    },
+    "close_window": {
+      "params": ["title"]
+    },
+    "keypress": {
+      "params": ["keys"]
+    },
+    "run_script": {
+      "params": ["name"]
+    },
+    "file_create": {
+  "params": ["path", "content"]
+},
+"file_read": {
+  "params": ["path"]
+},
+"file_delete": {
+  "params": ["path"]
+},
+"file_append": {
+  "params": ["path", "content"]
+},
+"file_replace": {
+  "params": ["path", "content"]
+},
+    "workflow": {
+      "params": ["name"]
+    }
+  }
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Agent Control Panel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h1>Agent Control Panel</h1>
+
+    <div class="status-block">
+        <span class="status-label">Статус сервера:</span>
+        <span id="status-text" class="status-text">неизвестно</span>
+    </div>
+
+    <div class="buttons">
+        <button id="start-btn">▶ Запустить</button>
+        <button id="stop-btn">⏹ Остановить</button>
+        <button id="restart-btn">🔄 Перезапустить</button>
+        <button id="refresh-status-btn">🔁 Обновить статус</button>
+    </div>
+
+    <div class="log-block">
+        <h2>Лог</h2>
+        <pre id="log-output"></pre>
+    </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
